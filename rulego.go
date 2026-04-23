@@ -247,6 +247,11 @@ func Stop() {
 func OnMsg(msg types.RuleMsg) {
 	DefaultRuleGo.OnMsg(msg)
 }
+// OnMsg2 调用所有规则引擎实例处理消息
+// 规则引擎实例池所有规则链都会去尝试处理该消息
+func OnMsg2(msg types.RuleMsg) {
+	DefaultRuleGo.OnMsg(msg)
+}
 
 // Reload 重新加载所有规则引擎实例
 func Reload(opts ...RuleEngineOption) {
