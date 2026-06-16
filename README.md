@@ -1,10 +1,10 @@
 # RuleGo
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/rulego/rulego)](https://pkg.go.dev/github.com/rulego/rulego) 
-[![Go Report](https://goreportcard.com/badge/github.com/rulego/rulego)](https://goreportcard.com/report/github.com/rulego/rulego)
-[![codecov](https://codecov.io/gh/rulego/rulego/graph/badge.svg?token=G6XCGY7KVN)](https://codecov.io/gh/rulego/rulego)
-[![test](https://github.com/rulego/rulego/workflows/test/badge.svg)](https://github.com/rulego/rulego/actions/workflows/test.yml)
-[![build](https://github.com/rulego/rulego/workflows/build/badge.svg)](https://github.com/rulego/rulego/actions/workflows/build.yml)
+![GoDoc](https://pkg.go.dev/badge/github.com/rulego/rulego) 
+![Go Report](https://goreportcard.com/badge/github.com/rulego/rulego)
+![codecov](https://codecov.io/gh/rulego/rulego/graph/badge.svg?token=G6XCGY7KVN)
+![test](https://github.com/rulego/rulego/workflows/test/badge.svg)
+![build](https://github.com/rulego/rulego/workflows/build/badge.svg)
 
 English| [中文](README_ZH.md)
 
@@ -17,7 +17,7 @@ It is also a flexible and highly customizable event processing framework. Suppor
 
 RuleGo documentation is hosted on: [rulego.cc](https://rulego.cc) .
 
-## Features
+## Feature Lists
 
 * **Lightweight:** No external middleware dependencies, can efficiently process and link data on low-cost devices, suitable for IoT edge computing.
 * **High performance:** Thanks to the high-performance characteristics of `Go`, in addition, `RuleGo` adopts technologies such as coroutine pool and object pool.
@@ -274,4 +274,4 @@ Any form of contribution is welcome, including submitting issues, suggestions, d
 
 ## License
 
-`RuleGo` uses Apache 2.0 license, please refer to [LICENSE](LICENSE) file for details.
+`RuleGo` uses Apache 2.0 license, please refer to [LICENSE](LICENSE) file for details.`RuleGo` uses Apache 2.0 license, please refer to [LICENSE](LICENSE) file for details.
