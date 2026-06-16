@@ -1,10 +1,10 @@
 # RuleGo
 
-[![GoDoc](https://pkg.go.dev/badge/github.com/rulego/rulego)](https://pkg.go.dev/github.com/rulego/rulego)
-[![Go Report](https://goreportcard.com/badge/github.com/rulego/rulego)](https://goreportcard.com/report/github.com/rulego/rulego)
-[![codecov](https://codecov.io/gh/rulego/rulego/graph/badge.svg?token=G6XCGY7KVN)](https://codecov.io/gh/rulego/rulego)
-[![test](https://github.com/rulego/rulego/workflows/test/badge.svg)](https://github.com/rulego/rulego/actions/workflows/test.yml)
-[![build](https://github.com/rulego/rulego/workflows/build/badge.svg)](https://github.com/rulego/rulego/actions/workflows/build.yml)
+![GoDoc](https://pkg.go.dev/badge/github.com/rulego/rulego)
+![Go Report](https://goreportcard.com/badge/github.com/rulego/rulego)
+![codecov](https://codecov.io/gh/rulego/rulego/graph/badge.svg?token=G6XCGY7KVN)
+![test](https://github.com/rulego/rulego/workflows/test/badge.svg)
+![build](https://github.com/rulego/rulego/workflows/build/badge.svg)
 
 [English](README.md)| 中文
 
@@ -164,7 +164,7 @@ ruleEngine, err := rulego.New("rule01", []byte(ruleFile), rulego.WithConfig(conf
 
 <img src="doc/imgs/rulechain/img_1.png" style="height:50%;width:80%;"/>
 
-规则链定义：
+![](doc/imgs/rulechain/img_1.png){width=80%}
 ```json
 {
   "ruleChain": {
@@ -226,20 +226,23 @@ ruleEngine, err := rulego.New("rule01", []byte(ruleFile), rulego.WithConfig(conf
 
   <img src="doc/imgs/rulechain/img_2.png" style="height:50%;width:80%;"/>
 
---------
+- 异步+顺序执行：  
+  ![](doc/imgs/rulechain/img_2.png){width=80%}
 
 - 使用子规则链方式：
 
   <img src="doc/imgs/rulechain/img_3.png" style="height:50%;width:80%;"/>
 
---------
+- 使用子规则链方式：
+  ![](doc/imgs/rulechain/img_3.png){width=80%}
 
 - 一些复杂例子：
 
   <img src="doc/imgs/rulechain/img_4.png" style="height:50%;width:80%;"/>
 
 
-## 数据集成
+- 一些复杂例子：
+  ![](doc/imgs/rulechain/img_4.png){width=80%}
 
 `RuleGo` 提供`Endpoint`模块对异构系统进行统一的数据集成和处理。详细参考： [Endpoint](endpoint/README_ZH.md) 
 
@@ -284,4 +287,4 @@ QQ群号：**720103251**
 
 ## 许可
 
-`RuleGo`使用Apache 2.0许可证，详情请参见[LICENSE](LICENSE)文件。
+`RuleGo`使用Apache 2.0许可证，详情请参见[LICENSE](LICENSE)文件。`RuleGo`使用Apache 2.0许可证，详情请参见[LICENSE](LICENSE)文件。
